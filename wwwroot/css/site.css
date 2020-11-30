@@ -15,8 +15,7 @@ li.nav-item {
 }
 
     li.nav-item:hover {
-        background-color: #A4D3FF;
-        color: white;
+        background-color: #c7c7c7;
     }
 /* Provide sufficient contrast against white background */
 a {
