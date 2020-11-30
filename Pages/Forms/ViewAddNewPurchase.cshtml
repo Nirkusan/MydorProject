@@ -1,0 +1,118 @@
+﻿@page
+@model MydorProject.Pages.Forms.ViewAddNewPurchaseModel
+@{
+}
+<blockquote class="borderbody">
+    <blockquote>
+        <div>
+            <div>
+                <h5>הוספת רכש חדש</h5>
+            </div>
+            <div>
+                <select>
+                    <option>בחר לקוח</option>
+                </select>
+                <select>
+                    <option>בחר פוייקט</option>
+
+                </select>
+                <select>
+                    <option>בחר משימה</option>
+                    <option>רכש לפרוייקט</option>
+                </select>
+            </div>
+        </div>
+        <div>
+            <label>מספר הזמנת רכש:</label>
+            <input id="TextBoxPurcasheNumber" type="text" />
+        </div>
+        <div>
+            <h5>נתוני הזמנה</h5>
+        </div>
+        <!---
+        <div>
+            <label>שם רכש: </label>
+            <input id="TextBoxPrchaseName" type="text" />
+        </div>
+        <div>
+            <h5>תשלום</h5>
+        </div>
+        <div>
+            <label>שכר:</label>
+            <select id="SelectFunds">
+                <option id="SelectFundsYes">שעתי</option>
+                <option id="SelectFundsYNo">גלובאלי</option>
+            </select>
+        </div>
+        <div>
+            <label>מחיר גלובאלי:</label>
+            <input id="TextBoxGlobalPrice" class="smalltextbox" type="number" />
+        </div>
+        <div>
+            <label>כמות שעות:</label>
+            <input id="TextBoxHours" class="smalltextbox" type="number" />
+        </div>
+        <div>
+            <label>שכר שעתי:</label>
+            <input id="TextBoxPriceHour" class="smalltextbox" type="Number" />
+        </div>
+        <div>
+            <label>סה"כ שכר:</label>
+            <input id="TextBoxTotalPrice" class="smalltextbox" type="Number" />
+        </div>
+        <div>
+            <button id="ButtonNewPurchase">הוסף רכש חדש</button>
+        </div>
+        -->
+        <div class="column">
+            <div>
+                <label>שכר:</label>
+
+            </div>
+            <div>
+                <label>מחיר גלובאלי:</label>
+
+            </div>
+            <div>
+                <label>כמות שעות:</label>
+
+            </div>
+            <div>
+                <label>מחיר שעתי:</label>
+
+            </div>
+            <div>
+                <label>סה"כ מחיר להזמנה:</label>
+
+            </div>
+        </div>
+        <div class="column">
+            <div>
+                <select id="SelectFunds">
+                    <option id="SelectFundsYes">שעתי</option>
+                    <option id="SelectFundsYNo">גלובאלי</option>
+                </select>
+            </div>
+            <div>
+                <input id="TextBoxHours" class="smalltextbox" type="number" />
+            </div>
+            <div>
+                <input id="TextBoxPriceHour" class="smalltextbox" type="Number" />
+            </div>
+            <div>
+                <input id="TextBoxGlobalPrice" class="smalltextbox" type="number" />
+            </div>
+            <div>
+                <input id="TextBoxTotalPrice" class="smalltextbox" type="Number" />
+            </div>
+            <div>
+                <a href="" class="ahref" id="ButtonNewPurchase">שמור</a>
+                <a href="" class="ahref red" id="ButtonNewPurchase">ביטול</a>
+            </div>
+        </div>
+    </blockquote>
+    <a href="" class="ahref" >לקוח חדש</a>
+    <a href="" class="ahref">פרוייקט חדש</a>
+    <a href="/Forms/ViewAddNewTask" class="ahref" >משימה חדשה</a>
+    <a href="" class="ahref">הוספת עובד למשימה</a>
+</blockquote>

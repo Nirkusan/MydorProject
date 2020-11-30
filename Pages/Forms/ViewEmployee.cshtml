@@ -1,0 +1,109 @@
+﻿@page
+@model MydorProject.Pages.Forms.ViewEmployeeModel
+@{
+}
+
+<blockquote class="borderbody">
+    <div class="column">
+        <h3>כרטיס עובד</h3>
+        <div>
+            <label>שם עובד:</label>
+            <input id="TextBoxName" type="text" />
+            <button id="ButtonSearch" class="smallbutton">חפש</button>
+        </div>
+        <div>
+            <h4>פרטי עובד</h4>
+        </div>
+        <div>
+            <label>תאריך תחילת עבודה:</label>
+            <input type="date" id="dateStartJob" />
+        </div>
+        <div>
+            <label>מספר עובד בהנהלת חשבונות:</label>
+            <input type="number"  class="smalltextbox" id="TextboxEmployeeNumber" />
+        </div>
+        <div>
+            <label>טל' נייד:</label>
+            <input type="text" id="TextBoxCellphone" />
+        </div>
+        <div>
+            <label>כתובת:</label>
+            <input id="TextBoxAddress" type="text" />
+        </div>
+        <div>
+            <label>כתובת מייל:</label>
+            <input id="TextBoxMail" type="text" />
+        </div>
+        <div>
+            <h3>נספחים:</h3>
+        </div>
+        <div>
+            <label>צרוף מסמכי העובד:</label>
+            <input id="FilesEmployee" type="file" />
+        </div>
+        <div>
+            <label>הערות</label>
+        </div>
+        <div>
+            <textarea name="message" class="textarea " rows="3" cols="40"></textarea>
+        </div>
+    </div>
+    <div class="column">
+        <div>
+            <label>שכר:</label>
+            <select id="SelectFunds">
+                <option id="SelectFundsYes">שעתי</option>
+                <option id="SelectFundsYNo">גלובאלי</option>
+            </select>
+        </div>
+
+        <div>
+            <label>שכר שעתי:</label>
+            <input id="TextBoxPricePerHour" class="smalltextbox" type="number" />
+        </div>
+        <div>
+            <label>שכר חודשי:</label>
+            <input id="TextBoxGlobalPrice"  class="smalltextbox" type="Number" />
+        </div>
+        <div>
+            <label>מספר תעודת זהות:</label>
+            <input id="TextBoxID" type="text" />
+        </div>
+        <div>
+            <h4>פרטי חשבון בנק</h4>
+        </div>
+        <div>
+            <label>שם הבנק:</label>
+            <select>
+                <option>בנק הפועלים</option>
+                <option>בנק דיסקונט</option>
+                <option>בנק לאומי</option>
+                <option>בנק מזרחי טפחות</option>
+            </select>
+        </div>
+        <div>
+            <label>סניף:</label>
+            <input id="TextBoxBankNumber"  class="smalltextbox" type="text" />
+        </div>
+        <div>
+            <label>מספר חשבון:</label>
+            <input id="TextBoxBankAccount"  class="smalltextbox"  style="" type="text" />
+        </div>
+        <h4>פנסיה</h4>
+        <div>
+            <label>קרן פנסיה:</label>
+            <select id="SelectFunds">
+                <option id="SelectFundsYes">כן</option>
+                <option id="SelectFundsYNo">לא</option>
+            </select>
+        </div>
+        <div>
+            <label> תאריך התשלום האחרון לקרן פנסיה</label>
+            <input type="date" class="timecustom" id="dateStartJob" />
+        </div>
+        <div>
+            <a href="" class="href" id="ButtonNewPurchase">הוסף עובד חדש</a>
+            <a href="">הוספת עובד למשימה</a>
+        </div>
+    </div>
+</blockquote>

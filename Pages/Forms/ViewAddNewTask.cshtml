@@ -1,0 +1,97 @@
+﻿@page
+@model MydorProject.Pages.Forms.ViewAddNewTaskModel
+@{
+}
+
+
+<blockquote class="borderbody">
+    <div>
+        <h4>הוסף משימה חדשה</h4>
+        <div>
+            <select id="SelectCustomer">
+                <option>בחר לקוח</option>
+                <option>HP</option>
+                <option>תים נטקום</option>
+            </select>
+            <select id="SelectProjects">
+                <option>בחר פרוייקט</option>
+                <option>Microsoft</option>
+                <option>Macabi</option>
+            </select>
+            <div>
+                <label>שם משימה:</label>
+                <input id="TextBoxPurcasheNumber" type="text" />
+            </div>
+            <div>
+                <label>תאריך התחלה:</label>
+                <input id="DateStartTask" type="date" />
+                <div>
+                    <label>תאריך סיום:</label>
+                    <input id="DateEndTask" type="date" />
+                </div>
+            </div>
+            <div>
+                <label>מספר הזמנת רכש:</label>
+                <input id="TextTaskName" type="text" />
+            </div>
+        </div>
+        <div>
+            <h5>פרטי לקוח</h5>
+        </div>
+        <label>איש קשר</label>
+        <select id="SelectProjects">
+            <option>איש קשר</option>
+            <option>אבי</option>
+            <option>עמרי</option>
+        </select>
+        <div>
+            <a>DDL with checkbox to insert employees to task, with search textbox</a>
+        </div>
+
+        <div class="column">
+            <div>
+                <label>שכר:</label>
+
+            </div>
+            <div>
+                <label>מחיר גלובאלי:</label>
+
+            </div>
+            <div>
+                <label>כמות שעות:</label>
+
+            </div>
+            <div>
+                <label>מחיר שעתי:</label>
+
+            </div>
+            <div>
+                <label>סה"כ מחיר להזמנה:</label>
+            </div>
+        </div>
+        <div class="column">
+            <div>
+                <select id="SelectFunds">
+                    <option id="SelectFundsYes">שעתי</option>
+                    <option id="SelectFundsYNo">גלובאלי</option>
+                </select>
+            </div>
+            <div>
+                <input id="TextBoxHours" class="smalltextbox" type="number" />
+            </div>
+            <div>
+                <input id="TextBoxPriceHour" class="smalltextbox" type="Number" />
+            </div>
+            <div>
+                <input id="TextBoxGlobalPrice" class="smalltextbox" type="number" />
+            </div>
+            <div>
+                <input id="TextBoxTotalPrice" class="smalltextbox" type="Number" />
+            </div>
+            <div>
+                <a href="" class="ahref" id="ButtonNewPurchase">שמור</a>
+                <a href="" class="ahref red" id="ButtonNewPurchase">ביטול</a>
+            </div>
+        </div>
+    </div>
+</blockquote>

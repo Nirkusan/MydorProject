@@ -1,0 +1,43 @@
+﻿@page
+@model MydorProject.Pages.Forms.ViewAddNewShiftModel
+@{
+}
+<div>
+    <div>
+        <h1>דיווח שעות</h1>
+        <div>בחר תאריך:     <input type="date" /></div>
+        <div>
+            <select id="SelectCustomer">
+                <option>בחר לקוח</option>
+                <option>HP</option>
+                <option>תים נטקום</option>
+            </select>
+            <select id="SelectProjects">
+                <option>בחר פרוייקט</option>
+                <option>Microsoft</option>
+                <option>Macabi</option>
+            </select>
+            <select id="SelectTasks">
+                <option>בחר משימה</option>
+                <option>מיפוי שרתים</option>
+                <option>asdasdsadasdsadהעברת משתמשים</option>
+            </select>
+        </div>
+    </div>
+    <div>
+        <a>שעת כניסה: </a><input type="time">
+        <a>שעת יציאה: </a><input type="time">
+        <a> סה"כ שעות : 8 </a>
+    </div>
+    <div>
+        <a>סהכ ק"מ:  </a><input type="number" />
+        <div> הערות</div>
+        <div>
+            <textarea name="message" class="textarea " rows="3" cols="40"></textarea>
+        </div>
+    </div>
+    <div>
+        <a href="" class="ahref" id="ButtonNewPurchase">שמור</a>
+        <a href="" class="ahref red" id="ButtonNewPurchase">ביטול</a>
+    </div>
+</div>
