@@ -7,12 +7,10 @@ a.navbar-brand {
   word-break: break-all;
 }
 li.nav-item {
-    background-color: #ddd;
+    background-color: #56cdf7;
     border: none;
     color: black;
-    padding: 5px 10px;
     text-align: center;
-    margin: 4px 2px;
     transition: 0.3s;
 }
 
